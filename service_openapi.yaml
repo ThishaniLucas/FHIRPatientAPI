@@ -17,7 +17,7 @@ paths:
         "200":
           description: Ok
           content:
-            application/json:
+            application/fhir+json:
               schema:
                 type: object
         "500":
@@ -39,7 +39,7 @@ paths:
         "200":
           description: Ok
           content:
-            application/json:
+            application/fhir+json:
               schema:
                 type: object
 components: {}
