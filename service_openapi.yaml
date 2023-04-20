@@ -13,6 +13,9 @@ paths:
   /fhir/r4/Patient:
     get:
       operationId: getFhirR4Patient
+      parameters:
+        - in: query
+          name: given
       responses:
         "200":
           description: Ok
